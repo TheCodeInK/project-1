@@ -1,7 +1,7 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: lightgreen;
+  background-color: cornsilk;
   height: 100vh;
 }
 
@@ -17,6 +17,26 @@ nav {
 nav div {
   margin: 10px;
 }
+
 section {
   display: flex;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: monospace;
+}
+
+main {
+  display: grid;
+  grid-row-start: auto;
+}
+
+button {
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
 }
