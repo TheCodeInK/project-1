@@ -56,3 +56,15 @@ h1 {
   color: black;
   font-family: monospace;
 }
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(94, 120, 94);
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin: 5px 20px 5px 5px;
+  color: aliceblue;
+}
