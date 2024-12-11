@@ -19,6 +19,12 @@ nav div {
   margin: 10px;
 }
 
+nav div:hover {
+  color: aliceblue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 section {
   display: flex;
 }
