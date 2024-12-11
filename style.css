@@ -1,7 +1,7 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: cornsilk;
+  background-color: rgb(94, 120, 94);
   height: 100vh;
 }
 
@@ -11,7 +11,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  background-color: aliceblue;
+  background-color: rgb(207, 193, 179);
+  color: rgb(150, 59, 59);
 }
 
 nav div {
@@ -35,7 +36,7 @@ section {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(1, 3fr);
+  grid-template-rows: repeat(1, 3fr);
   grid-gap: 10px;
   width: 50%;
   margin: 10px;
@@ -49,12 +50,14 @@ section {
 }
 
 h1 {
-  margin: 0;
+  margin: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: monospace;
+  font-size: 50px;
+  text-align: center;
 }
 
 button {
@@ -65,6 +68,6 @@ button {
   padding: 10px;
   border-radius: 20px;
   border: none;
-  margin: 5px 20px 5px 5px;
+  margin: 5px;
   color: aliceblue;
 }
