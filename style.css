@@ -45,7 +45,8 @@ section {
   display: flex;
   width: 100%;
   height: 300px;
-  border-radius: 15px;} 
+  border-radius: 15px;
+}
 
 h1 {
   margin: 0;
@@ -54,22 +55,4 @@ h1 {
   align-items: center;
   color: black;
   font-family: monospace;
-}
-
-/* main {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.box-container {
-width: 50%;
-margin: 10px;
-}
-
-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: aliceblue;
 }
