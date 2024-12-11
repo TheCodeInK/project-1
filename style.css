@@ -72,6 +72,13 @@ button {
   color: aliceblue;
 }
 
+button:hover {
+  color: rgb(94, 120, 94);
+  background-color: rgb(199, 200, 201);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 nav footer {
   display: flex;
   flex-direction: row;
